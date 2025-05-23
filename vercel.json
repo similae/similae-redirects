@@ -1,0 +1,40 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "fiambres.cl" }],
+      "destination": "https://www.similae.com/collections/fiambres",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.fiambres.cl" }],
+      "destination": "https://www.similae.com/collections/fiambres",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "cafemarket.cl" }],
+      "destination": "https://www.similae.com/collections/cafeteria",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.cafemarket.cl" }],
+      "destination": "https://www.similae.com/collections/cafeteria",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "pizzakit.cl" }],
+      "destination": "https://www.similae.com/collections/pizzakit",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.pizzakit.cl" }],
+      "destination": "https://www.similae.com/collections/pizzakit",
+      "permanent": true
+    }
+  ]
+}
