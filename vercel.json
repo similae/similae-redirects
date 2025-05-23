@@ -3,60 +3,56 @@
     {
       "source": "/:path*",
       "has": [
-        {
-          "type": "host",
-          "value": "fiambres.cl"
-        }
+        { "type": "host", "value": "fiambres.cl" }
       ],
       "destination": "https://www.similae.com/collections/fiambres"
     },
     {
       "source": "/:path*",
       "has": [
-        {
-          "type": "host",
-          "value": "www.fiambres.cl"
-        }
+        { "type": "host", "value": "www.fiambres.cl" }
       ],
       "destination": "https://www.similae.com/collections/fiambres"
     },
     {
       "source": "/:path*",
       "has": [
-        {
-          "type": "host",
-          "value": "cafemarket.cl"
-        }
+        { "type": "host", "value": "salumeria.cl" }
+      ],
+      "destination": "https://www.similae.com/collections/fiambres"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "www.salumeria.cl" }
+      ],
+      "destination": "https://www.similae.com/collections/fiambres"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "cafemarket.cl" }
       ],
       "destination": "https://www.similae.com/collections/cafeteria"
     },
     {
       "source": "/:path*",
       "has": [
-        {
-          "type": "host",
-          "value": "www.cafemarket.cl"
-        }
+        { "type": "host", "value": "www.cafemarket.cl" }
       ],
       "destination": "https://www.similae.com/collections/cafeteria"
     },
     {
       "source": "/:path*",
       "has": [
-        {
-          "type": "host",
-          "value": "pizzakit.cl"
-        }
+        { "type": "host", "value": "pizzakit.cl" }
       ],
       "destination": "https://www.similae.com/collections/pizzakit"
     },
     {
       "source": "/:path*",
       "has": [
-        {
-          "type": "host",
-          "value": "www.pizzakit.cl"
-        }
+        { "type": "host", "value": "www.pizzakit.cl" }
       ],
       "destination": "https://www.similae.com/collections/pizzakit"
     }
