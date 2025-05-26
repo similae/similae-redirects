@@ -1,20 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "has": [
-        { "type": "host", "value": "cafemarket.cl" }
-      ],
-      "destination": "/cafemarket/index.html"
-    },
-    {
-      "source": "/",
-      "has": [
-        { "type": "host", "value": "www.cafemarket.cl" }
-      ],
-      "destination": "/cafemarket/index.html"
-    },
-    {
       "source": "/:path*",
       "has": [
         { "type": "host", "value": "fiambres.cl" }
@@ -41,6 +27,20 @@
         { "type": "host", "value": "www.salumeria.cl" }
       ],
       "destination": "https://www.similae.com/collections/fiambres"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "cafemarket.cl" }
+      ],
+      "destination": "https://www.similae.com/collections/cafeteria"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "www.cafemarket.cl" }
+      ],
+      "destination": "https://www.similae.com/collections/cafeteria"
     },
     {
       "source": "/:path*",
